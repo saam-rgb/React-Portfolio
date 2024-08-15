@@ -6,7 +6,7 @@ const Card = () => {
     <div className="card-card ">
       <div className="row">
         {projectDatas.map((projectData, index) => (
-          <div className="col-md-3" key={index}>
+          <div className="col-lg-3 col-md-4 col-sm-6 col-12 mb-3 " key={index}>
             <div className="card" style={{ width: 18 + "rem" }}>
               <img
                 src={projectData.image}
@@ -18,10 +18,10 @@ const Card = () => {
                 <p className="card-text">{projectData.language + " "}</p>
 
                 <div>
-                  <a href={projectData.site} className="btn btn-primary me-2">
+                  <a href={projectData.site} className="btn me-2 mb-2">
                     View Site
                   </a>
-                  <a href={projectData.github} className="btn btn-primary">
+                  <a href={projectData.github} className="btn mb-2">
                     View Source Code
                   </a>
                 </div>

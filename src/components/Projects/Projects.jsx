@@ -3,9 +3,9 @@ import Card from "./Card/Card";
 
 const Projects = () => {
   return (
-    <div className="projects p-5">
+    <div className="projects p-5" id="projects">
       <div className="row">
-        <div className="col-md-5 mb-4">
+        <div className="col-md-6 mb-4">
           <h1>Projects</h1>
           <p>
             I take pride on all projects I have worked on. Each one has been a
