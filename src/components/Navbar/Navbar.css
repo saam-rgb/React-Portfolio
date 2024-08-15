@@ -5,4 +5,11 @@
 }
 .navbar-brand {
   color: #f1f5f9 !important;
+  font-size: 1.5rem !important;
+}
+.navbar li {
+  font-size: 1.2rem;
+}
+.navbar-collapse {
+  flex-grow: 0 !important;
 }
