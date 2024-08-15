@@ -20,6 +20,7 @@ p {
 .contact {
   overflow: hidden;
   background: #fde68a;
+  color: #1e293b !important;
 }
 input {
   background: transparent;

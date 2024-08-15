@@ -47,7 +47,7 @@ const Contact = () => {
               </div>
             </form>
           </div>
-          <div className="col-md-5 border-start p-4">
+          <div className="col-md-5 border-start border-dark p-4">
             <ul>
               <li>
                 Email: <a href="saamsallvin@gmail.com">saamsallvin@gmail.com</a>

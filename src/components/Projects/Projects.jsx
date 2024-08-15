@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div className="projects p-5">
       <div className="row">
-        <div className="col-md-4">
+        <div className="col-md-5 mb-4">
           <h1>Projects</h1>
           <p>
             I take pride on all projects I have worked on. Each one has been a
