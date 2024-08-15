@@ -1,8 +1,9 @@
 import React from "react";
+import Card from "./Card/Card";
 
 const Projects = () => {
   return (
-    <div className="projects">
+    <div className="projects p-5">
       <div className="row">
         <div className="col-md-4">
           <h1>Projects</h1>
@@ -13,7 +14,9 @@ const Projects = () => {
             latest work.
           </p>
         </div>
+        <div className="col-md-8"></div>
       </div>
+      <Card />
     </div>
   );
 };

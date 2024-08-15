@@ -6,11 +6,24 @@
 .home {
   background: #fde68a;
   color: #1e293b;
+  overflow: hidden;
 }
 p {
   font-size: 1.25rem;
 }
 .about {
-  height: 100vh;
   padding: 55px 50px;
+
+  background: #1e293b;
+  color: #fff;
+}
+.contact {
+  overflow: hidden;
+  background: #fde68a;
+}
+input {
+  background: transparent;
+}
+.projects {
+  overflow: hidden;
 }

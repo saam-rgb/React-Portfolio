@@ -22,8 +22,8 @@ const Home = () => {
               matter the most.
             </p>
           </div>
-          <div className="col-md-7">
-            <img src={HomeImage} alt="saam" />
+          <div className=" col-md-7  ">
+            <img className="w-100" src={HomeImage} alt="saam" />
           </div>
         </div>
       </div>

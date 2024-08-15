@@ -3,46 +3,46 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg ">
-      <div class="container-fluid d-flex justify-content-between">
-        <a class="navbar-brand" href="#">
+    <nav className="navbar navbar-expand-lg navbar-dark ">
+      <div className="container-fluid d-flex ">
+        <a className="navbar-brand flex-grow-1" href="#">
           Saam.js
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link " href="#">
+        <div className="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul className="navbar-nav me-0 mb-2 mb-lg-0">
+            <li className="nav-item">
+              <a className="nav-link " href="#">
                 Home
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
                 About
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
                 Projects
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
                 Contact
               </a>
             </li>
           </ul>
-          {/* <form class="d-flex" role="search">
-            <button class="btn" type="submit">
+          {/* <form className="d-flex" role="search">
+            <button className="btn" type="submit">
               Resume
             </button>
           </form> */}
