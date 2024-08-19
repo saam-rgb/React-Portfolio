@@ -33,3 +33,41 @@ export const projectDatas = [
     onGoing: "*Ongoing",
   },
 ];
+
+export const uiProjects = [
+  {
+    name: "Turf Town",
+    image: rq,
+    prototype: "",
+    figma: "https://github.com/saam-rgb/Mowli-Bakery",
+    language: ["React", "Bootstrap", "Firebase"],
+    onGoing: false,
+  },
+  {
+    name: "Zoro.to",
+    image: rq,
+    prototype: "",
+    figma: "https://github.com/saam-rgb/Mowli-Bakery",
+    language: ["React", "Bootstrap", "Firebase"],
+    onGoing: false,
+  },
+  {
+    name: "Colab-Ecommerce",
+    image: rq,
+    prototype: "",
+    figma: "https://github.com/saam-rgb/Mowli-Bakery",
+    language: ["React", "Bootstrap", "Firebase"],
+    onGoing: "*Ongoing",
+  },
+];
+
+export const colabProjects = [
+  {
+    name: "Collab Ecommerce",
+    image: rq,
+    site: "",
+    github: "https://github.com/saam-rgb/Mowli-Bakery",
+    language: ["React", "Bootstrap", "Firebase"],
+    onGoing: "*Ongoing",
+  },
+];
