@@ -1,10 +1,11 @@
 import React from "react";
 import "./Footer.css";
+import logo from "../../assets/images/port-logo.png";
 
 const Footer = () => {
   return (
     <footer>
-      <img src="" alt="Saam" />
+      <img src={logo} alt="Saam" width={60 + "px"} className="my-3" />
 
       <div className="socials ">
         <ul className="d-flex ">
