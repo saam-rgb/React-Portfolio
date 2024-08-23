@@ -20,7 +20,9 @@ const Navbar = () => {
           aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse " id="navbarSupportedContent">
+        <div
+          className="collapse navbar-collapse py-1"
+          id="navbarSupportedContent">
           <ul className="navbar-nav me-0 mb-2 mb-lg-0">
             <li className="nav-item">
               <a className="nav-link " href="#">
@@ -43,7 +45,7 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
-          <button className="btn" href={logo}>
+          <button className="btn " href={logo}>
             Resume
           </button>
         </div>

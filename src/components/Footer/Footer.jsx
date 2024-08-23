@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="pb-4">
       <div className="socials ">
-        <ul className="d-flex ">
+        <ul className="d-flex flex-wrap">
           <li>
             <a href="https://www.linkedin.com/in/saam-sheron/">Linkedin</a>
           </li>
