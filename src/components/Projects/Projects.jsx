@@ -3,7 +3,7 @@ import Card from "./Card/Card";
 
 const Projects = () => {
   return (
-    <div className="projects p-5 " id="projects">
+    <div className="projects py-5 " id="projects">
       <div className="container-md">
         <h1 className="heading mb-4">Projects</h1>
         <center>
