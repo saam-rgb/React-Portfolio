@@ -17,11 +17,11 @@
 .navbar-collapse button {
   font-family: "Poppins", sans-serif;
   font-size: 1.2rem;
-  color: #fffaf0;
+  color: #daa520;
   background: #333333;
-  border-color: #fffaf0;
+  border-color: #daa520;
 }
 .navbar-collapse button:hover {
   color: #333333;
-  background: #fffaf0;
+  background: #daa520;
 }

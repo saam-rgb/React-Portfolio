@@ -137,10 +137,10 @@ textarea {
 }
 form button:hover {
   color: #333333 !important;
-  background: #fffaf0 !important;
+  background: #daa520 !important;
 }
 form button {
   background: #333333 !important;
-  color: #fffaf0 !important;
-  border-color: #333333 !important;
+  color: #daa520 !important;
+  border-color: #daa520 !important;
 }

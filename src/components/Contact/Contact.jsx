@@ -1,7 +1,29 @@
 import React from "react";
+import emailjs from "@emailjs/browser";
 import Footer from "../Footer/Footer";
+import { useRef } from "react";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_ppkn3di", "template_7hksf65", form.current, {
+        publicKey: "Y-hkeCmmRiuid1AiS",
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+          console.log("Message sent");
+          e.target.reset();
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
+  };
   return (
     <div>
       <div className="contact p-5 " id="contact">
@@ -32,7 +54,7 @@ const Contact = () => {
             </ul>
 
             <div className="col-md-7 p-4 ">
-              <form action="" className="mb-3 ">
+              <form className="mb-3 " ref={form} onSubmit={sendEmail}>
                 <div className="mb-3">
                   <div className="row ">
                     <div className="col-md-4">
@@ -40,6 +62,7 @@ const Contact = () => {
                         type="text"
                         placeholder="Name"
                         className="form-control mb-3 me-3 col-md-1"
+                        name="user_name"
                       />
                     </div>
                     <div className="col-md-4">
@@ -48,6 +71,7 @@ const Contact = () => {
                         type="email"
                         placeholder="Email"
                         className="form-control mb-3 me-3 col-md-4"
+                        name="user_email"
                       />
                     </div>
                     <div className="col-md-4">
@@ -55,20 +79,20 @@ const Contact = () => {
                         type="text"
                         placeholder="Subject"
                         className="form-control mb-3 col-md-4"
+                        name="subject"
                       />
                     </div>
                   </div>
                   <textarea
                     className="form-control"
-                    name=""
-                    id=""
+                    name="message"
                     placeholder="Message"
                     cols={50}
                     rows={5}></textarea>
                 </div>
 
                 <div className="">
-                  <button type="submit" className="btn  ">
+                  <button type="submit" className="btn" value="Send">
                     Send
                   </button>
                 </div>

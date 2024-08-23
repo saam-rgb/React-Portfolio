@@ -9,10 +9,7 @@ footer {
 p {
   font-size: 1rem !important;
 }
-span a {
-  color: #f1f5f9;
-  text-decoration: none;
-}
+
 li {
   padding: 10px;
   list-style: none;
@@ -20,6 +17,11 @@ li {
 }
 
 li a {
-  color: #f1f5f9;
+  color: #fffaf0;
   text-decoration: none;
+}
+li a:hover {
+  color: #daa520;
+  text-decoration: wavy;
+  text-decoration-color: #daa520 !important;
 }
