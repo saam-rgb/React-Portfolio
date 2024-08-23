@@ -43,6 +43,7 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
+          <button className="btn">Resume</button>
         </div>
       </div>
     </nav>

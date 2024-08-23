@@ -1,15 +1,27 @@
 .navbar {
-  background: #1e293b;
-  /* color: #f1f5f9 !important; */
+  background: #333333;
+  color: #fffaf0;
   border-radius: 12px;
 }
 .navbar-brand {
-  color: #f1f5f9 !important;
+  color: #fffaf0 !important;
   font-size: 1.5rem !important;
 }
-.navbar li {
+.navbar li a {
   font-size: 1.2rem;
+  color: #fffaf0 !important;
 }
 .navbar-collapse {
   flex-grow: 0 !important;
+}
+.navbar-collapse button {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  color: #fffaf0;
+  background: #333333;
+  border-color: #fffaf0;
+}
+.navbar-collapse button:hover {
+  color: #333333;
+  background: #fffaf0;
 }

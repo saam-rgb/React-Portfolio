@@ -4,9 +4,7 @@ import logo from "../../assets/images/port-logo.png";
 
 const Footer = () => {
   return (
-    <footer>
-      <img src={logo} alt="Saam" width={60 + "px"} className="my-3" />
-
+    <footer className="pb-4">
       <div className="socials ">
         <ul className="d-flex ">
           <li>
