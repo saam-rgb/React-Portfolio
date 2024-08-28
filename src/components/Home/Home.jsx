@@ -5,10 +5,8 @@ import HomeImage from "../../assets/images/dp-bg-reg.png";
 const Home = () => {
   return (
     <div className="home ">
+      <Navbar />
       <div className="container-md ">
-        <div className="py-3">
-          <Navbar />
-        </div>
         <div className="row d-flex align-items-center">
           <div className="col-md-5">
             <h1>Saam Sheron</h1>
@@ -21,6 +19,7 @@ const Home = () => {
               the tools are the people. Teamwork and passion, those are what
               matter the most.
             </p>
+            <button className="btn ">Resume</button>
           </div>
           <div className=" col-md-7  ">
             <img className="w-100" src={HomeImage} alt="saam" />

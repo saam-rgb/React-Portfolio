@@ -30,7 +30,7 @@ const Contact = () => {
         <div className="container-md">
           <h1 className="heading">Contact Me</h1>
           <div className="row d-flex justify-content-center">
-            <ul className="d-flex p-2 flex-wrap justify-content-start align-items-start">
+            <ul className="d-flex p-2 flex-wrap ">
               <li>
                 Email:{" "}
                 <a className="contact-link" href="saamsallvin@gmail.com">
